@@ -34,8 +34,8 @@ const Faq = () => {
           onClick={() => setchange(!changeselection)}
         >
           {changeselection
-            ? "enable multi-selection"
-            : "enable single-selection"}
+            ? "enable single-selection"
+            : "enable multi-selection"}
         </button>
         {data.map((i, index) => (
           <div key={index} className="w-full mb-4">
